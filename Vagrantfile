@@ -21,7 +21,7 @@ Vagrant.configure(2) do |config|
         sudo apt-get install -y python-virtualenv
         sudo pip install Flask
         export FLASK_APP=/home/vagrant/vagrantflask/stef.py
-        flask run
+        flask run --host 0.0.0.0
 
   SHELL
 end
